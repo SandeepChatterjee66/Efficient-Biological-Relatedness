@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+
+# config/config.yaml
+data_path: "c:/users/sandeep/cmbb/BIOGRID-PUBLICATION-77183-4.4.240.DOWNLOADS"
+pathways_to_analyze:
+  - "DNA_REPAIR
+
+  # config/config.yaml (continued)
+  - "CELL_CYCLE"
+  - "APOPTOSIS"
+  - "SIGNAL_TRANSDUCTION"
+  - "METABOLISM"
+
+logging:
+  level: INFO
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+performance:
+  max_workers: 4
+  chunk_size: 1000
+
+
+
+
+

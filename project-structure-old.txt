@@ -1,0 +1,41 @@
+# Directory structure:
+src/
+    __init__.py
+    data/
+        __init__.py
+        loader.py
+        preprocessor.py
+        network_builder.py
+    algorithms/
+        __init__.py
+        landmark_sampler.py
+        neighborhood_sampler.py
+        distance_oracle.py
+        shortest_paths.py
+    analysis/
+        __init__.py
+        aspl_calculator.py
+        relatedness_classifier.py
+        performance_metrics.py
+    visualization/
+        __init__.py
+        network_plotter.py
+        results_plotter.py
+    experiments/
+        __init__.py
+        experiment_runner.py
+        benchmark_runner.py
+    utils/
+        __init__.py
+        constants.py
+        logger.py
+        validators.py
+tests/
+    __init__.py
+    test_data_loader.py
+    test_algorithms.py
+    test_analysis.py
+config/
+    config.yaml
+requirements.txt
+README.md
